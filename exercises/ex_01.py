@@ -10,7 +10,7 @@ Write a function called `hello()` that returns the string "Hello, World!".
 Run the following command in your terminal:
 
 ```bash
-python -m unittest tests.test_ex_01
+Hello, World!
 ```
 
 # Hint
@@ -27,4 +27,5 @@ python -m unittest tests.test_ex_01
 
 # TODO: Implement the hello() function
 def hello():
-    pass  # Replace this 'pass' with your implementation
+    return "Hello, World!"
+      # Replace this 'pass' with your implementation

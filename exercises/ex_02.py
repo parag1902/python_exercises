@@ -31,4 +31,14 @@ python -m unittest tests.test_ex_02
 def find_numbers(min, max):
     # TODO: Implement the function to return a list of numbers between [min] and [max]
     # which are divisible by 7 but are not multiples of 5
-    pass
+    x=[]
+    for i in range(min,max+1):
+        if(i>=0):
+            if(i%7==0 and i%5!=0):
+                x.append(i)
+        else:
+            if(i%7==0):
+                x.append(i)  
+    return x
+
+
